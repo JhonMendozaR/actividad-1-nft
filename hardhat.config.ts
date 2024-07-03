@@ -2,8 +2,6 @@ import { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
 //deploy
 import "hardhat-deploy";
-// verify
-import "@nomicfoundation/hardhat-etherscan";
 
 import dotenv from "dotenv";
 dotenv.config();
